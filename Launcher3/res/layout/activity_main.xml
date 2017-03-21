@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/boot"
     android:orientation="vertical" >
     
    <GridView android:layout_width="match_parent"
         android:id="@+id/apps_list"
-        android:background="@drawable/boot"
-        android:numColumns="6"
+        android:numColumns="7"
         android:layout_height="match_parent">
     </GridView>
 

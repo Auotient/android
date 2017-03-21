@@ -66,8 +66,8 @@ public class GridAdapter extends BaseAdapter{
 		}  
 		
 		params = (LayoutParams) viewTag.mIcon.getLayoutParams();  
-		params.height = mScreenHeight/8;
-		params.width = (mScreenWidth-20)/2;
+		params.height = (mScreenHeight/8)-20;
+		params.width = (mScreenWidth-20)/2-20;
 		ResolveInfo info = maList.get(position);
 	
 			

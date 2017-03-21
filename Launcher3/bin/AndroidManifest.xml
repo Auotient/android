@@ -11,8 +11,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/launche"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name" >
         <activity
             android:name="juli.shiya.launcher3.MainActivity"
             android:label="@string/app_name" >
@@ -23,7 +22,11 @@
                   <category android:name="android.intent.category.HOME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+            
+            
         </activity>
+    
+        
     </application>
 
 </manifest>
